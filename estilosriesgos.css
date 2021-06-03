@@ -1,0 +1,137 @@
+* {
+    margin:0;
+    padding:0;
+  }
+
+  .titulo{
+    color:rgb(0, 119, 255);
+    font-style: normal;
+    font-family: ubuntu;
+    font-weight: bold;
+    word-spacing: px;
+  }
+
+  .h3{
+    color: #1f6786;
+    font-style:normal;
+    font-family: ubuntu;
+    text-decoration: underline;
+  }
+
+   
+  .ul{
+    list-style-type: none;
+    list-style-position: outside;
+    color: rgb(0, 47, 255);
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    font-family: ubuntu;
+    font-size: small;
+  }
+
+  .table {
+    border: 3px solid ;
+    color:rgb(20, 22, 22);
+   }
+  
+  th {
+    background-color:#ade2e4;
+    border: 2px solid;
+   }
+  
+   tr, td {
+    border: 1px solid;
+   }
+
+   .titulostabla{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family: ubuntu;
+    font-size: small;;
+  }
+
+  .filastabla{
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-family: ubuntu;
+    font-size: small;
+    background-color: white
+  }
+ 
+  .p{
+    color: rgb(34, 32, 32);
+    font-family: ubuntu;
+    font-size: small;
+  }
+  
+  .h5{
+    color: rgb(34, 32, 32);
+    font-family: ubuntu;
+    font-size:x-small;
+    line-height: 1.5;
+  }
+
+  body{
+    font-family: ubuntu;
+    background-image: linear-gradient(to right, rgb(196, 190, 190), white);
+  }
+
+  .piedepagina{
+    color: rgb(0, 47, 255);
+    font-family: ubuntu;
+    font-size:small;
+  }
+
+  form {
+    background-color:#ade2e4;
+   }
+
+  .incidentes {
+    color: #1f6786;
+    font-style:normal;
+    font-family: ubuntu;
+    text-decoration: underline;
+ }
+
+  .padre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: center;
+    height: 180px;
+    padding: 10px;
+  }
+
+  .padre div{
+    background-image:linear-gradient(to bottom, #ade2e4, white) ;
+    height: 160px;
+    width: 300px;
+    margin: 25px;
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+    border: 1px solid black;  
+  }
+
+  .novedadesPadre {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: center;
+    height: 210px;
+    width: auto;
+    padding: 1px;
+  }
+  
+  .novedadesPadre div{
+    height: 200px;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    font-size: medium;
+    border: 1px solid black;  
+  }
