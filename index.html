@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intranet del equipo de Gestion de Riesgos. Actualizar planes, reportar incidentes, novedades">
+    <meta name="keywords"  content="INTRANET RIESGOS, PLANES DE ACCION, ACTUALIZAR PLAN, INCIDENTES, INCIDENTE">
+    <title>Gestion de Riesgos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilosriesgos.css">
+</head>
+<body>
+    <h1 class="titulo">Bienvenido a Gestion de Riesgos</h1>
+    <nav id ="menuGrilla" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span>Menú</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Riesgos</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="riesgos.html">Riesgos altos</a></li>
+                          <li><a class="dropdown-item" href="riesgos.html">Riesgos medios</a></li>   
+                          <li><a class="dropdown-item" href="riesgos.html">Riesgos bajos</a></li>                           
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="planesdeaccion.html">Planes de acción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="incidentes.html">Incidentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h3 class="h3">Novedades</h3> 
+    <div class="container">
+        <div class="row">
+         <div class="col">
+            <header><h4>¿Que es la gestion de riesgos?</h4></header>
+                <main>
+                <article>
+                    <video src="https://youtu.be/X8AA5DEUGQY"controls>Error de reproduccion</video>
+                </article>
+            </main>
+         </div>
+         <div class="container">
+            <div class="row">
+             <div class="col">
+                 <h3>Riesgos</h3>
+                     <h4>Base de Riesgos</h4>
+                         <h5 button type="button" class="btn">Riesgos altos</h5>
+                         <h5 button type="button" class="btn">Riesgos medios</h5>
+                         <h5 button type="button" class="btn">Riesgos bajos</h5>
+                     <h4 button type="button" class="btn btn-secondary">Solicitud de baja de riesgo</h4>
+             </div>
+             <div class="col">
+                 <h3>Planes de accion</h3>
+                     <h4>Mis planes</h4>  
+                         <h5 button type="button" class="btn">busqueda por ID</h5>
+                         <h5 button type="button" class="btn">busqueda por proceso</h5>
+                     <h4 button type="button" class="btn btn-secondary" >Solicitud de baja de plan de accion</h4>
+             </div>
+                     <div class="col">
+                 <h3>Incidentes</h3>
+                     <h4 button type="button" class="btn btn-danger">Reportar incidente</h4>
+                     <h4 button type="button" class="btn">Actualizar incidente</h4>
+                         <h5 button type="button" class="btn">busqueda por ID</h5>
+             </div>
+            </div>
+         </div>
+    <footer>
+        <div>
+            <p>Todos los derechos reservados. GESTIONADORA DE RIESGOS S.A. Av del Libertador 5100 - CABA</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>     
+</body>
+</html>
