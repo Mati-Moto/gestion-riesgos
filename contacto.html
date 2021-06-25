@@ -8,16 +8,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilosriesgos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body class="body">
-    <h1 class="titulo">Contactenos</h1>
-            <h3>Email</h3>
-            <p  class="p">soporte@gestionderiesgos.com</p>
-            <h3>Workplace</h3> 
-            <p class="p">Grupo: @gestionderiesgos</p>
+    <header id="grillaheader" class="header">
+        <a class="headerLogo" href="index.html"><img class="headerLogo" src="logo.jpg" alt="Logo" title="Logo"> </a> 
+        <h1 class= "titulo">Contactenos</h1>  
+    </header>
+    <nav id ="menuGrilla" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span>Menú</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Riesgos</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="riesgos.html">Comité</a></li>
+                            <li><a class="dropdown-item" href="riesgos.html">Metodología</a></li>   
+                            <li><a class="dropdown-item" href="riesgos.html">Riesgos altos</a></li>                           
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="planesdeaccion.html">Planes de acción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="incidentes.html">Incidentes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
             <h3>Formulario de contacto</h3> 
-            <p  class="p">Ingrese su consulta para ser atendido por uno de nuestros representantes</p>  
-            <form class="verde">
+            <p  class="p">Ingresa tu consulta y uno de nuestros analistas se contactara a la brevedad</p>  
+            <form class="formulario">
                 <Fieldset>
                 <label>Nombre y Apellido 
             <input type="text" name="nombre y apellido">
@@ -45,6 +74,22 @@
             <input type="reset" value="Limpiar">
                 </Fieldset>
             </form> 
-        <h4 class="piedepagina"><a href="index.html">Ir al Inicio</a></h4> 
+        <footer id="grillaFooter">
+            <div class="footerCuerpo">
+                <div class="footerCuerpoRedes">
+                    <p><b>Encontranos en otros canales</b></p>
+                    <div>
+                        <img class="FooterCuerpoRedesWImagen" src="..\footerImages\whatsapp.PNG">
+                        <p>(549)11-0000-1111</p>
+                    </div>
+                    <div>
+                        <img class="footerCuerpoRedesImagen" src="..\footerImages\correo.PNG">
+                        <p>soporte@gestionderiesgos.com</p>
+                        <a class="footerCuerpoRedesImagen" href="https://work.workplace.com/work/company_selector?ref=AVt0zxnsNIGPCSVsV44HCZELaKynA4Gymw35AOMyr8rtvgyHW-p6CejEvZ_8PyHsbOpB28QT5HBjL7543m81rCRdASb3KSPGiIJfjdzs0kpEUz8rIVN6wugn9ly5nCHJkSGD09L3ORZ5hhm7YNjmGPW-Ju5mkpALFqkcom1UkMNPMg"><img class="footer__cuerpo__redes__instagram" src="..\Images\workplace.PNG"><p>Gestion de riesgos</p></a>
+                    </div>
+                </div>     
+            </div>        
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>     
 </body>
 </html>
