@@ -9,7 +9,8 @@
     grid-template-rows: none;
     grid-template-areas: "grillaheader" "menuGrilla" "grillafooter";
     align-items: center;
-    justify-content: center; }
+    justify-content: center; 
+  }
   /* IDs para las grillas */
   #grillaHeader {
     grid-area: grillaheader;
@@ -19,9 +20,11 @@
     grid-area: menuGrilla;
     width: 100%; }
   .bg-light {
-    background-color: #444b52 !important;
+    background-color: #82a0be !important;
     color: white;
+    font-weight: bold;
   }
+  
   #grillaFooter {
     grid-area: grillafooter;
     width: 100%;
@@ -62,7 +65,6 @@
    }
   
 
- 
   .p{
     color: rgb(34, 32, 32);
     font-family: ubuntu;
@@ -82,82 +84,98 @@
   }
 
     /*Formato menú*/
-    .navbar-expand-lg {
+  .navbar-expand-lg {
       flex-wrap: nowrap;
-      justify-content: flex-start; }
-    .navbar-expand-lg .navbar-toggler {
-      display: none; }
-    .navbar-expand-lg .navbar-collapse {
+      justify-content: flex-start;
+  }
+  .navbar-expand-lg .navbar-toggler {
+      display: none;
+  }
+  .navbar-expand-lg .navbar-collapse {
       display: flex !important;
       flex-basis: auto;
-      justify-content: center; }
-    .navbar-expand-lg .navbar-nav {
-      flex-direction: row; }
-    .navbar-expand-lg .navbar-nav .nav-link {
+      justify-content: center; 
+  }
+  .navbar-expand-lg .navbar-nav {
+      flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
       padding-right: .5rem;
-      padding-left: .5rem; }
-    .navbar-expand-lg .navbar-nav .dropdown-menu {
-      position: absolute; }
+      padding-left: .5rem; 
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: absolute; 
+  }
     /* Fin formato de menú*/
 
     /*Formato header*/
-    .header {
-      display: flex;
-      flex-direction: row;
-      padding: 10px 10px;
-      height: 100px;
-      justify-content: center;
-      align-items: center; }
-      .header a {
-        text-decoration: none; }
-    .header__logo {
-      order: -1;
-      transition: width .2s, height .2s;
-      width: 3rem;
-      height: 3rem;
-      vertical-align: inherit; }
-      .header__logo .header__logo:Hover {
-        width: 3.5rem;
-      }
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    height: 100px;
+    justify-content: Left;
+    align-items: center;
+  }
+
+  .header a {
+    text-decoration: none;
+  }
+
+  .header__logo {
+    order: -1;
+    transition: width .2s, height .2s;
+    width: 10px;
+    height: 10px;
+    vertical-align: inherit; 
+  }
+
+  .header__logo .header__logo:Hover {
+    width: 10px;
+  }
       /*Fin formato Header*/
+
       /*Formato footer*/
-      footer {
-      background-color: #444b52 !important;
-      color: white;
-      padding-top: 40px;
-      padding-bottom: 40px; 
-      }
+  footer {
+    background-color:#afc6dd !important;
+    color: rgb(71, 66, 66);
+    padding-top: 40px;
+    padding-bottom: 40px; 
+  }
       
-      .footerCuerpo {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: stretch; }
-        footer .footerCuerpo b {
-          font-weight: bold;
-          font-size: .9rem; }
-        footer .footerCuerpo .footerCuerpoRedes {
-          text-align: center;
-          padding-bottom: 1em;
-          padding-top: 1em; }
-        footer .footerCuerpo .footerCuerpoRedes a {
-            text-decoration: none; }
-        footer .footerCuerpo .footerCuerpoRedes p {
-            font-size: .8rem;
-            margin-bottom: 7px; 
-            font-family: ubuntu;}
-        .footerCuerpoRedesImagen img {
-            width: 3rem;
-            height: 3rem; }
+  .footerCuerpo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+  }
 
-            .footerCuerpoRedesWsp img {
-              width: 10px;
-              height: 10px; }
-              /*Fin formato footer*/
+  footer .footerCuerpo b {
+    font-weight: bold;
+    font-size: .9rem;
+  }
+          
+  footer .footerCuerpo .footerCuerpoRedes {
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em; 
+  }
 
-              .titulosIndex {
-                text-align: center; }
+  footer .footerCuerpo .footerCuerpoRedes a {
+    text-decoration: none;
+  }
 
-                .ptabla {
-                  text-align: center; }
+  footer .footerCuerpo .footerCuerpoRedes p {
+    font-size: .8rem;
+    margin-bottom: 7px; 
+    font-family: ubuntu;
+  }
+
+  .footerCuerpoRedesImagen img {
+    width: 3rem;
+    height: 3rem; 
+  }
+
+    /*Fin formato footer*/
+
