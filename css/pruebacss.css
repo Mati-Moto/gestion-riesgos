@@ -3,7 +3,8 @@ body {
 
 .titulosIndex {
   font-family: ubuntu;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 
 .ptabla {
   font-family: ubuntu;

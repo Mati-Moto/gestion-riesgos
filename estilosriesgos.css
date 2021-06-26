@@ -122,16 +122,16 @@
     text-decoration: none;
   }
 
-  .header__logo {
+  .headerLogo {
     order: -1;
     transition: width .2s, height .2s;
-    width: 10px;
-    height: 10px;
+    width: 75px;
+    height: 75px;
     vertical-align: inherit; 
   }
 
-  .header__logo .header__logo:Hover {
-    width: 10px;
+  .headerLogo .headerLogo:Hover {
+    width: 70px;
   }
       /*Fin formato Header*/
 
@@ -176,6 +176,5 @@
     width: 3rem;
     height: 3rem; 
   }
-
     /*Fin formato footer*/
 
