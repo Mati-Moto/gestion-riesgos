@@ -78,7 +78,7 @@
 
   body{
     font-family: ubuntu;
-    background-color: rgb(196, 190, 190);
+    background-color: rgb(236, 227, 227);
   }
 
     /*Formato menú*/
@@ -100,6 +100,7 @@
       position: absolute; }
     /* Fin formato de menú*/
 
+    /*Formato header*/
     .header {
       display: flex;
       flex-direction: row;
@@ -118,7 +119,8 @@
       .header__logo .header__logo:Hover {
         width: 3.5rem;
       }
-
+      /*Fin formato Header*/
+      /*Formato footer*/
       footer {
       background-color: #444b52 !important;
       color: white;
@@ -152,6 +154,7 @@
             .footerCuerpoRedesWsp img {
               width: 10px;
               height: 10px; }
+              /*Fin formato footer*/
 
               .titulosIndex {
                 text-align: center; }
